@@ -47,8 +47,10 @@
                             <a class="nav-link" href="{{ url('/') }}">{{ __('Home') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('dashboard.projects.index') }}">
-                                {{ __('Projects') }}</a>
+                            <a class="nav-link"
+                                href="{{ route('dashboard.posts.index') }}">
+                                    {{ __('Posts') }}
+                            </a>
                         </li>
                     </ul>
 
